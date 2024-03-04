@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Mateus Torquato</title>
+    <!-- Import Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inline Script to configure Tailwind (optional) -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'clinic-blue': '#333aff',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Header Section -->
+<header class="bg-clinic-blue text-white p-4 text-center">
+    <h1 class="text-2xl font-bold">Dr. Mateus Torquato - Odontologista</h1>
+</header>
+
+<!-- Navbar -->
+<nav class="flex justify-between items-center bg-white shadow-md p-4">
+    <a href="#" class="text-clinic-blue text-lg font-semibold">Inicio</a>
+    <a href="#about" class="text-gray-600 hover:text-clinic-blue">Sobre</a>
+    <a href="#contact" class="text-gray-600 hover:text-clinic-blue">Agendamento</a>
+</nav>
+
+<!-- Main Content -->
+<main class="my-8">
+    <div class="container mx-auto px-4">
+        <!-- Banner Image -->
+        <img src="consultorio.png" alt="Consultorio Banner" class="w-full h-auto rounded-lg shadow-md">
+
+        <!-- Clinic Info -->
+        <section id="about" class="text-center my-8">
+            <h2 class="text-3xl text-clinic-blue font-bold">Sinta-se confiante com o seu sorriso!</h2>
+            <p class="text-gray-700 my-4">Olá, tudo bem? Sou Mateus Torquato e estou pronto para mudar o seu sorriso.<br>Trabalho com muita dedicação para ser o seu Dentista de preferência.</p>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="my-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+                <!-- Service Item -->
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold">Serviços</h4>
+                    <p class="text-gray-600">Clareamento, Limpeza, Restauração, Extrações, Próteses, Coras, Dentaduras, pontes, e mais.</p>
+                </div>
+                <!-- Repeat for other services -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-8">
+            <h3 class="text-2xl text-clinic-blue font-bold">Agendamento</h3>
+            <p class="text-gray-600">Agende uma consulta e primeira visita hoje mesmo através do WhatsApp ;)</p>
+            <a href="http://wa.me//5511996998076" class="mt-4 inline-block bg-whatsapp-green text-white p-3 rounded-md">Agendar em alguns passos WhatsApp</a>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-clinic-blue text-white text-center p-4">
+    <p>&copy; 2024 Mateus Torquato.</p>
+</footer>
+
+<!-- Include any necessary JavaScript -->
+<script>
+    // Your JavaScript here (if necessary)
+</script>
+
+</body>
+</html>
